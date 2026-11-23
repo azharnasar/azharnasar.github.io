@@ -1,4 +1,5 @@
 <title>Azhar Nasar Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Azhar Nasar, Creative Director in Dubai. Animation, film previsualization, brand campaigns and AI-driven production.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1578,6 +1579,25 @@ a.wp-card:hover .wp-icon svg { transform: scale(1.06); }
 @media (min-width: 701px) { .kl-stk .cd-index, .kl-stk .kl-tabs { flex-wrap: wrap; overflow: visible; } }
 @media (max-width: 700px) { .kl-stk .cd-index, .kl-stk .kl-tabs { -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); padding-right: 28px; } }
 .kl-stk2 ~ .cd-sec { scroll-margin-top: calc(var(--kl-navh, 60px) + 12px); }
+@media (max-width: 700px) {
+  .kl-stk { padding-top: 4px; padding-bottom: 4px; }
+  .kl-stk1 { padding-top: 6px; }
+  .kl-stk2 { margin-top: 14px; padding-bottom: 6px; }
+  .kl-stk .kl-tabs a { padding: 6px 10px; font-size: 10px; gap: 6px; }
+  .kl-stk .kl-tabs a svg { width: 14px; height: 14px; }
+  .kl-stk .cd-index button { padding: 6px 9px; font-size: 10px; }
+  .kl-ovst { padding-top: 4px; padding-bottom: 6px; }
+  .kl-ovst .kl-step { min-width: 0; padding: 6px 8px; flex-direction: row; align-items: baseline; gap: 6px; }
+  .kl-ovst .kl-step b { font-size: 12.5px; white-space: nowrap; }
+  .kl-ovst .kl-arr { flex-basis: 10px; }
+  .kl-grp .kl-gidx { padding-top: 4px; padding-bottom: 6px; }
+  .kl-gidx .kl-gi { min-width: 72px; padding: 4px 2px; gap: 3px; }
+  .kl-gidx .kl-gi svg { width: 36px; height: 36px; padding: 6px; }
+  .kl-gidx .kl-gi span { display: none; }
+  .kl-gidx .kl-gi b { font-size: 11px; }
+  .kl-gidx .kl-gline { margin-top: 18px; flex-basis: 10px; }
+  .kl-vsr span { font-size: 9px; letter-spacing: .02em; overflow-wrap: anywhere; }
+}
 .kl-stk2 ~ .cd-sec .kl-sec { scroll-margin-top: calc(var(--kl-navh, 60px) + 104px); }
 .kl-tabs a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; border: 1px dotted var(--guide); color: var(--dim); text-decoration: none; font: 500 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; }
 .kl-tabs a svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
@@ -1631,6 +1651,102 @@ a.wp-card:hover .wp-icon svg { transform: scale(1.06); }
 .kl-clips figcaption small { color: var(--dim); font-size: 12.5px; line-height: 1.45; }
 @media (max-width: 760px) { .kl-clips { grid-template-columns: 1fr; } }
 .kl-cam { margin-top: 6px; }
+.kl-after { grid-column: 1 / -1; margin-top: 6px; }
+.kl-silx { display: grid; gap: 10px; }
+.kl-silf { border: 1px solid rgba(236,235,230,.14); border-radius: 12px; padding: 12px 14px; display: grid; gap: 10px; }
+.kl-silf > span { color: var(--accent); font-size: 10px; letter-spacing: .1em; }
+.kl-silf > div { display: flex; justify-content: center; align-items: flex-end; gap: 18px; flex-wrap: wrap; background: #fff; border-radius: 10px; padding: 14px 14px 0; border-bottom: 3px solid #bbb; }
+.kl-silf figure { margin: 0; display: grid; justify-items: center; gap: 6px; }
+.kl-silf .im { display: block; background-repeat: no-repeat; max-width: 100%; }
+.kl-silf figcaption { text-align: center; padding-bottom: 8px; } .kl-silf figcaption b { display: block; font: 700 15px var(--f-display); color: #222; } .kl-silf figcaption small { color: #666; font-size: 11.5px; }
+.kl-silk { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 10px; letter-spacing: .06em; color: var(--dim); }
+.kl-silk span { display: inline-flex; align-items: center; gap: 6px; }
+.kl-silk i { width: 12px; height: 12px; border-radius: 3px; } .kl-silk .blk { background: #111; border: 1px solid #555; } .kl-silk .gry { background: #888; } .kl-silk .sel { border: 2px solid var(--accent); }
+.kl-silc { border: 1px solid rgba(236,235,230,.14); border-top: 3px solid var(--c); border-radius: 12px; padding: 0 14px; }
+.kl-silc.kera { --c: var(--accent); } .kl-silc.laila { --c: var(--c-space); } .kl-silc.boss { --c: var(--c-brand); }
+.kl-silc summary { cursor: pointer; display: flex; align-items: baseline; gap: 10px; padding: 12px 0; list-style: none; }
+.kl-silc summary::-webkit-details-marker { display: none; }
+.kl-silc summary b { font: 700 18px var(--f-display); color: var(--c); }
+.kl-silc summary span { font-size: 10px; letter-spacing: .08em; color: var(--dim); }
+.kl-silc summary::after { content: '+'; margin-left: auto; color: var(--c); font: 600 16px var(--f-mono); } .kl-silc[open] summary::after { content: '−'; }
+.kl-silp { border-top: 1px dotted var(--guide); padding: 10px 0 12px; display: grid; gap: 8px; }
+.kl-silp > span { color: var(--c); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; }
+.kl-silr { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; align-items: start; }
+.kl-silr > i { font-style: normal; font-size: 10px; letter-spacing: .06em; color: var(--dim); padding-top: 6px; }
+.kl-silv { display: flex; align-items: flex-start; gap: 6px; overflow-x: auto; padding: 0 0 4px; position: relative; scrollbar-width: thin; }
+.kl-silv figure { margin: 0; flex: none; display: grid; justify-items: center; gap: 3px; background: #fff; border-radius: 6px; padding: 4px; border: 2px solid transparent; }
+.kl-silv figure .im { display: block; background-repeat: no-repeat; }
+.kl-silv figure.on { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(246,182,56,.18); }
+.kl-silv figcaption { font-size: 9px; letter-spacing: .1em; color: #8a5a00; text-transform: uppercase; }
+@media (max-width: 700px) { .kl-silr { grid-template-columns: 1fr; gap: 4px; } .kl-silr > i { padding-top: 0; } }
+.kl-dl { display: grid; grid-template-columns: minmax(0, 1fr) 22px minmax(0, 1.25fr) 22px minmax(0, .9fr); align-items: stretch; gap: 0; }
+.kl-dl .kera { --c: var(--accent); } .kl-dl .laila { --c: var(--c-space); } .kl-dl .boss { --c: var(--c-brand); }
+.kl-dls { border: 1px dotted var(--guide); border-radius: 10px; padding: 10px 12px; display: grid; align-content: start; gap: 8px; }
+.kl-dls > span { color: var(--accent); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.kl-dla { align-self: center; text-align: center; color: var(--accent); font-size: 16px; }
+.kl-dlt { display: grid; gap: 8px; }
+.kl-dlt > div { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.kl-dlt b, .kl-dlr b { width: 100%; font: 600 13px var(--f-display); color: var(--c); }
+.kl-dlt i { font-style: normal; font-size: 11.5px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--c); color: var(--chalk); }
+.kl-dlc { display: grid; gap: 10px; }
+.kl-dlc span { font-size: 10px; letter-spacing: .06em; color: var(--dim); } .kl-dlc em { font-style: normal; color: var(--c); }
+.kl-dlc p { margin: 4px 0 0; display: grid; grid-template-columns: minmax(0, 1fr) 26px minmax(0, 1fr); align-items: center; font-size: 12px; }
+.kl-dlc p i { font-style: normal; color: var(--chalk); padding: 2px 6px; border-left: 2px solid var(--c); } .kl-dlc p i:last-child { text-align: right; border-left: 0; border-right: 2px solid var(--c); }
+.kl-dlc p s { height: 1px; border-top: 1px dashed var(--dim); position: relative; } .kl-dlc p s::before, .kl-dlc p s::after { content: '◂'; position: absolute; top: -8px; left: -3px; font-size: 9px; color: var(--dim); } .kl-dlc p s::after { content: '▸'; left: auto; right: -3px; }
+.kl-dlr { display: grid; gap: 10px; }
+.kl-dlr > div { display: flex; flex-wrap: wrap; gap: 6px; }
+.kl-dlr span { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; color: var(--chalk); }
+.kl-dlr svg { width: 16px; height: 16px; fill: none; stroke: var(--c); stroke-width: 1.8; }
+.kl-dlr small { color: var(--dim); font-size: 11.5px; }
+@media (max-width: 900px) { .kl-dl { grid-template-columns: 1fr; gap: 6px; } .kl-dla { transform: rotate(90deg); } }
+.kl-sec:has(.kl-dl) { grid-template-columns: minmax(0, 1fr); } .kl-sec:has(.kl-dl) .kl-left { max-width: none; display: grid; gap: 14px; } .kl-sec:has(.kl-dl) .kl-sum { max-width: 760px; }
+.kl-et { display: grid; gap: 14px; }
+.kl-eti { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.kl-eti > div { border: 1px dotted var(--guide); border-radius: 10px; padding: 10px 12px; display: grid; gap: 2px; }
+.kl-eti span { color: var(--accent); font-size: 10px; } .kl-eti b { font: 600 14px var(--f-display); } .kl-eti small { color: var(--dim); font-size: 12.5px; line-height: 1.45; }
+.kl-etc { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.kl-etc article { border: 1px solid rgba(236,235,230,.14); border-top: 3px solid var(--c); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 9px; }
+.kl-etc .kera { --c: var(--accent); } .kl-etc .laila { --c: var(--c-space); } .kl-etc .boss { --c: var(--c-brand); }
+.kl-etc header b { display: block; font: 700 20px/1.1 var(--f-display); color: var(--c); } .kl-etc header span { font-size: 10.5px; letter-spacing: .08em; color: var(--chalk); text-transform: uppercase; }
+.kl-etc p { margin: 0; font-size: 12.5px; line-height: 1.45; color: #d9d8d2; } .kl-etc p.want { color: var(--c); font-weight: 600; }
+.kl-etc i.mono { display: block; font-style: normal; font-size: 9.5px; letter-spacing: .1em; color: var(--dim); text-transform: uppercase; margin-bottom: 2px; }
+.kl-etj { display: grid; grid-template-columns: minmax(0, 1fr) 34px minmax(0, 1fr); gap: 6px; align-items: stretch; }
+.kl-etj > div { border-radius: 8px; padding: 7px 8px; display: grid; align-content: start; gap: 1px; }
+.kl-etj .dn { border: 1px dashed rgba(238,143,168,.6); } .kl-etj .up { border: 1px dashed rgba(127,214,174,.7); }
+.kl-etj .dn b, .kl-etj .up b { font: 600 13px var(--f-display); } .kl-etj .dn b { color: var(--c-brand); } .kl-etj .up b { color: var(--c-space); }
+.kl-etj small { color: var(--dim); font-size: 11.5px; line-height: 1.35; }
+.kl-etj .core { align-self: center; justify-self: center; width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--c); display: grid; place-items: center; position: relative; }
+.kl-etj .core b { font: 700 15px var(--f-display); color: var(--c); }
+.kl-etj .core::before, .kl-etj .core::after { content: ''; position: absolute; top: 50%; width: 8px; border-top: 1px solid var(--dim); } .kl-etj .core::before { right: 100%; } .kl-etj .core::after { left: 100%; }
+.kl-etl > div { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+.kl-etl span { text-align: center; font: 500 10px var(--f-mono); letter-spacing: .05em; padding: 4px 0; border-radius: 4px; background: rgba(236,235,230,.06); color: var(--dim); }
+.kl-etl span.on { background: var(--c); color: var(--ink); font-weight: 600; }
+@media (max-width: 860px) { .kl-eti, .kl-etc { grid-template-columns: 1fr; } }
+.kl-sec:has(.kl-et) { grid-template-columns: minmax(0, 1fr); } .kl-sec:has(.kl-et) .kl-left { max-width: none; display: grid; gap: 14px; } .kl-sec:has(.kl-et) .kl-sum { max-width: 760px; }
+.kl-dos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.kl-dosc { border: 1px solid rgba(236,235,230,.14); border-radius: 12px; padding: 0 0 6px; overflow: hidden; display: flex; flex-direction: column; }
+.kl-dosc header { padding: 12px 14px 10px; border-bottom: 1px dotted var(--guide); border-top: 3px solid var(--c); display: grid; gap: 2px; }
+.kl-dosc.kera { --c: var(--accent); } .kl-dosc.laila { --c: var(--c-space); } .kl-dosc.boss { --c: var(--c-brand); }
+.kl-dosc header b { font: 700 20px/1.1 var(--f-display); font-stretch: 106%; color: var(--c); }
+.kl-dosc header span { font-size: 10px; letter-spacing: .1em; color: var(--chalk); text-transform: uppercase; }
+.kl-dosc header small { color: var(--dim); font-size: 12px; }
+.kl-dosc .r { padding: 7px 14px; border-bottom: 1px dotted rgba(236,235,230,.08); }
+.kl-dosc .r span { display: block; font-size: 9.5px; letter-spacing: .1em; color: var(--dim); text-transform: uppercase; margin-bottom: 2px; }
+.kl-dosc .r p { margin: 0; font-size: 12.5px; line-height: 1.45; color: #d9d8d2; }
+.kl-dosc .r.goal p { color: var(--c); font-weight: 600; }
+.kl-dosc .r.two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.kl-dosc .r.back { border-bottom: 0; } .kl-dosc .r.back p { color: var(--dim); }
+.kl-wv { border: 1px dotted var(--guide); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; }
+.kl-wv > span { color: var(--accent); font-size: 10px; letter-spacing: .1em; }
+.kl-wv svg { width: 100%; max-width: 620px; height: auto; display: block; margin: 0 auto; }
+.kl-wv .bx { fill: rgba(236,235,230,.02); stroke: var(--guide); } .kl-wv .gd { stroke: rgba(236,235,230,.12); stroke-dasharray: 3 4; }
+.kl-wv .ax { fill: var(--dim); font: 500 10px var(--f-mono); } .kl-wv .ax.t { fill: var(--chalk); letter-spacing: .06em; }
+.kl-wv .pt.kera { fill: var(--accent); } .kl-wv .pt.laila { fill: var(--c-space); } .kl-wv .pt.boss { fill: var(--c-brand); }
+.kl-wv .nm { fill: var(--chalk); font: 600 14px var(--f-display); } .kl-wv .sb { fill: var(--dim); font: 500 10px var(--f-mono); }
+.kl-wv .arc { fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-dasharray: 5 4; } .kl-wv .ah { fill: var(--accent); }
+.kl-wv p { margin: 0; font-size: 13px; line-height: 1.5; color: var(--dim); max-width: 760px; }
+@media (max-width: 860px) { .kl-dos { grid-template-columns: 1fr; } }
+.kl-sec:has(.kl-dos) { grid-template-columns: minmax(0, 1fr); } .kl-sec:has(.kl-dos) .kl-left { max-width: none; display: grid; gap: 14px; } .kl-sec:has(.kl-dos) .kl-sum { max-width: 760px; }
 .kl-shp { display: grid; gap: 14px; }
 .kl-shpk > span, .kl-shp .kl-shpf { color: var(--accent); font-size: 10px; letter-spacing: .1em; }
 .kl-shpk > div { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
@@ -2234,6 +2350,27 @@ button.kl-ovn:hover .kl-ovi svg { stroke: var(--accent); }
 .titleblock span { font: 500 13px/1.4 var(--f-mono); }
 @media (max-width: 700px) { .titleblock { grid-template-columns: 1fr 1fr; } .titleblock div:first-child { grid-column: 1 / -1; } .titleblock div:nth-child(2), .titleblock div:nth-child(4) { border-left: 0; } .titleblock div:nth-child(n+2) { border-top: 1px solid rgba(236,235,230,.2); } }
 footer { padding-bottom: 40px; }
+
+/* ---------- phones only: nothing in this block applies above 640px ---------- */
+@media (max-width: 640px) {
+  /* circuit: drawn as a vertical stack on phones (see layout() in the script), so no sideways scroll */
+  #circuit { min-width: 0; }
+  /* slate: cropped to the board; the hinge, angle and dimension notes are too small to read here */
+  .slate-fig { margin-inline: 0; }
+  .slate-fig svg#slate { overflow: hidden; }
+  #slate .s-ann { display: none; }
+  #slate .s-lbl { font-size: 12px; letter-spacing: .4px; }
+  /* the cropped view moves the drawing's origin, so pivot the arm on its own bottom-left corner (the hinge) */
+  #slate .arm { transform-box: fill-box; transform-origin: 0 100%; }
+  /* dense drawings scroll sideways inside their own frame (frame added by the script) */
+  .phone-scroll { overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; }
+  /* AI Film shot timeline: let the phase names wrap instead of being cut off */
+  .af-tl { height: auto; min-height: 44px; }
+  .af-tl button { white-space: normal; text-overflow: clip; line-height: 1.2; padding: 6px 4px; }
+  /* Kera Laila chapters: keep wide content (e.g. the enneagram profiles) from stretching the page past the screen */
+  .kl-doc, .kl-gbody { grid-template-columns: minmax(0, 1fr); }
+  .kl-grp, .kl-sec { min-width: 0; }
+}
 </style>
 
 <header class="nav">
@@ -2285,7 +2422,7 @@ footer { padding-bottom: 40px; }
             </marker>
           </defs>
           <!-- construction lines -->
-          <g stroke="rgba(236,235,230,.24)" stroke-width="1" stroke-dasharray="2 5" fill="none">
+          <g class="s-ann" stroke="rgba(236,235,230,.24)" stroke-width="1" stroke-dasharray="2 5" fill="none">
             <line x1="40" y1="140" x2="560" y2="140"/>
             <line x1="40" y1="176" x2="560" y2="176"/>
             <line x1="40" y1="366" x2="520" y2="366"/>
@@ -2301,7 +2438,7 @@ footer { padding-bottom: 40px; }
             <line x1="250" y1="298" x2="250" y2="366"/>
             <line x1="350" y1="298" x2="350" y2="366"/>
           </g>
-          <g font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="1.2" fill="#9a9c9f">
+          <g class="s-lbl" font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="1.2" fill="#9a9c9f">
             <text x="164" y="194">PROD.</text>
             <text x="164" y="248">ROLE</text>
             <text x="324" y="248">BASE</text>
@@ -2326,7 +2463,8 @@ footer { padding-bottom: 40px; }
           </g>
           <!-- hinge -->
           <circle cx="150" cy="140" r="6" fill="#141516" stroke="#f6b638" stroke-width="2.4"/>
-          <!-- hinge callout -->
+          <!-- hinge callout, angle and dimensions: hidden on phones -->
+          <g class="s-ann">
           <line x1="145" y1="135" x2="96" y2="96" stroke="#9a9c9f" stroke-width="1" stroke-dasharray="3 3"/>
           <text x="20" y="80" font-family="IBM Plex Sans, sans-serif" font-size="14" fill="#ecebe6">Hinge</text>
           <text x="20" y="96" font-family="IBM Plex Mono, monospace" font-size="9.5" letter-spacing=".8" fill="#f6b638">ARCH × ANIMATION</text>
@@ -2342,6 +2480,7 @@ footer { padding-bottom: 40px; }
           <line x1="492" y1="178" x2="492" y2="364" stroke="#9a9c9f" stroke-width="1" marker-start="url(#arr)" marker-end="url(#arr)"/>
           <text x="504" y="266" font-family="IBM Plex Sans, sans-serif" font-size="15" fill="#ecebe6">5+</text>
           <text x="504" y="281" font-family="IBM Plex Mono, monospace" font-size="9.5" letter-spacing=".8" fill="#f6b638">YRS</text>
+          </g>
         </svg>
         <figcaption class="mono"><span>Slate_clapper · Fig. 00</span><span>Click to clap</span></figcaption>
       </figure>
@@ -2560,10 +2699,75 @@ footer { padding-bottom: 40px; }
   }
   tick(); setInterval(tick, 15000);
 
+  // ---------- Phones only (max-width 640px); desktop and laptop layouts are untouched ----------
+  var PHONE_Q = window.matchMedia('(max-width: 640px)');
+  function onPhoneChange(fn) { if (PHONE_Q.addEventListener) PHONE_Q.addEventListener('change', fn); else PHONE_Q.addListener(fn); }
+  // Slate: crop to the board itself so its fields read at a useful size (annotations are hidden in CSS)
+  function slateView() { slate.setAttribute('viewBox', PHONE_Q.matches ? '140 10 320 366' : '0 0 580 420'); }
+  slateView(); onPhoneChange(slateView);
+  // Text floor: on phones, small HTML labels (captions, tags, timecodes) are raised to 12px.
+  // Each change is recorded on the element and undone if the screen becomes wide again.
+  var FLOOR = 12;
+  // Drawings too dense to read at phone width get a sideways-scrolling frame at a larger size
+  var PHONE_WIDE = { scSvg: 560, arPav: 400, arBench: 400 };
+  var PHONE_WIDE_CENTRED = { scSvg: true }; // the story circle opens centred; the plan/elevation toys open at the plan
+  function widenDrawings() {
+    Object.keys(PHONE_WIDE).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el || el.parentElement.classList.contains('phone-scroll')) return;
+      var wrap = document.createElement('div'); wrap.className = 'phone-scroll';
+      el.parentElement.insertBefore(wrap, el); wrap.appendChild(el);
+      el.style.minWidth = PHONE_WIDE[id] + 'px';
+      if (PHONE_WIDE_CENTRED[id]) wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2;
+    });
+  }
+  function unwidenDrawings() {
+    document.querySelectorAll('.phone-scroll').forEach(function (wrap) {
+      var el = wrap.firstElementChild; if (el) { el.style.minWidth = ''; wrap.parentElement.insertBefore(el, wrap); }
+      wrap.remove();
+    });
+  }
+  // Labels inside drawings: enlarged up to 1.6x until they read at about 11px (the slate and circuit have their own phone layouts)
+  function floorSvgText() {
+    document.querySelectorAll('svg text').forEach(function (t) {
+      if (t.hasAttribute('data-fs-svg') || t.closest('#slate, #circuit')) return;
+      var m = t.getScreenCTM(); if (!m) return;
+      var fs = parseFloat(getComputedStyle(t).fontSize), px = fs * Math.hypot(m.a, m.b);
+      if (!(px > 0) || px >= 10.5) return;
+      t.setAttribute('data-fs-svg', t.style.fontSize || '');
+      t.style.fontSize = (fs * Math.min(1.6, 11 / px)).toFixed(2) + 'px';
+    });
+  }
+  function floorText(root) {
+    if (!PHONE_Q.matches) return;
+    widenDrawings(); floorSvgText();
+    var els = (root || document.body).querySelectorAll('*');
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      if (el.closest('svg') || el.hasAttribute('data-fs-floor')) continue;
+      var own = false;
+      for (var c = el.firstChild; c; c = c.nextSibling) if (c.nodeType === 3 && c.textContent.trim()) { own = true; break; }
+      if (!own) continue;
+      var px = parseFloat(getComputedStyle(el).fontSize);
+      if (px > 0 && px < FLOOR) { el.setAttribute('data-fs-floor', el.style.fontSize || ''); el.style.fontSize = FLOOR + 'px'; }
+    }
+  }
+  function unfloorText() {
+    document.querySelectorAll('[data-fs-floor]').forEach(function (el) { el.style.fontSize = el.getAttribute('data-fs-floor'); el.removeAttribute('data-fs-floor'); });
+    document.querySelectorAll('[data-fs-svg]').forEach(function (el) { el.style.fontSize = el.getAttribute('data-fs-svg'); el.removeAttribute('data-fs-svg'); });
+    unwidenDrawings();
+  }
+  var floorQueued = false;
+  function queueFloor() { if (floorQueued) return; floorQueued = true; requestAnimationFrame(function () { floorQueued = false; floorText(); }); }
+  new MutationObserver(function () { if (PHONE_Q.matches) queueFloor(); }).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
+  onPhoneChange(function () { if (PHONE_Q.matches) floorText(); else unfloorText(); });
+  floorText();
+
   // ---------- Work: the circuit ----------
   var FEATURE_URL = '#w-kera-laila';
   var K = { ch: '#ecebe6', gr: '#4f5154', dm: '#8a8c8f', bg: '#1b1c1e', am: '#f6b638', aml: '#fac775', amd: '#854f0b', red: '#e24b4a' };
-  var WY = 362; // wire height
+  var WY = 362; // wire height (desktop)
+  var PHONE = window.matchMedia('(max-width: 640px)');
   var PIECES = [
     { id: 'b', x: 150, name: 'Ideation', comps: ['Creative Direction', 'Blueprint', 'Previz'], w: 230 },
     { id: 'c', x: 465, name: 'Execution', comps: ['Film', 'AI Film', 'Commercials', 'Experiential'], w: 180 },
@@ -2573,43 +2777,57 @@ footer { padding-bottom: 40px; }
   var progress = document.getElementById('cProgress');
   function M(t, x) { return '<text font-family="IBM Plex Mono, monospace" ' + x + '>' + t + '</text>'; }
 
+  // Desktop draws every piece at its own coordinates. Phones keep the same drawing but move each
+  // piece into a vertical stack (object and switch on the left, its components on the right) and
+  // enlarge the labels, so nothing has to shrink into a sideways-scrolling strip.
+  function layout(phone) {
+    if (!phone) return { vb: '0 0 1030 566', pc: ['', '', ''], cm: ['', '', ''], ft: '', fs: 1, cw: null, ch: 24, cg: 30, ls: 1,
+      segs: ['M150 ' + WY + ' H465', 'M465 ' + WY + ' H695', 'M695 ' + WY + ' H890 V282'], src: [150, WY] };
+    return { vb: '0 0 400 1190', fs: 1.2, cw: 184, ch: 28, cg: 34, ls: 0,
+      pc: ['translate(-40 -30)', 'translate(-355 204)', 'translate(-585 390)'],
+      cm: ['translate(146 -340)', 'translate(-169 -20)', 'translate(-399 220)'],
+      ft: 'translate(-689 734)',
+      segs: ['M110 332 H20 V566 H110', 'M110 566 H20 V752 H110', 'M110 752 H20 V909 H93'], src: [110, 332] };
+  }
+
   function buildCircuit() {
+    var L = layout(PHONE.matches), fs = L.fs;
+    circuit.setAttribute('viewBox', L.vb);
     var s = '<defs><pattern id="lockHatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="' + K.gr + '" stroke-width="2"/></pattern></defs>';
     // wire: grey dotted base + amber overlay that draws on
-    var segs = [['M150 ' + WY + ' H465', 0], ['M465 ' + WY + ' H695', 1], ['M695 ' + WY + ' H890 V282', 2]];
-    segs.forEach(function (g, i) {
-      s += '<path d="' + g[0] + '" fill="none" stroke="' + K.gr + '" stroke-width="2" stroke-dasharray="3 6"/>';
-      s += '<path id="seg' + i + '" class="amber" d="' + g[0] + '" pathLength="1" fill="none" stroke="' + K.am + '" stroke-width="4" stroke-dasharray="1 1" stroke-dashoffset="1"/>';
+    L.segs.forEach(function (d, i) {
+      s += '<path d="' + d + '" fill="none" stroke="' + K.gr + '" stroke-width="2" stroke-dasharray="3 6"/>';
+      s += '<path id="seg' + i + '" class="amber" d="' + d + '" pathLength="1" fill="none" stroke="' + K.am + '" stroke-width="4" stroke-dasharray="1 1" stroke-dashoffset="1"/>';
     });
-    s += '<circle id="srcDot" class="fx" cx="150" cy="' + WY + '" r="6" fill="' + K.gr + '"/>';
-    // switches and stems
-    PIECES.forEach(function (p, i) {
-      s += '<line x1="' + p.x + '" y1="284" x2="' + p.x + '" y2="300" stroke="' + K.gr + '" stroke-width="1.5" stroke-dasharray="3 3"/>';
-      s += '<line id="stem' + i + '" class="fx" x1="' + p.x + '" y1="332" x2="' + p.x + '" y2="' + WY + '" stroke="' + K.gr + '" stroke-width="2"/>';
-      s += '<g class="sw" id="sw' + i + '" role="switch" tabindex="0" aria-checked="false" aria-label="' + p.name + ' switch">' +
+    s += '<circle id="srcDot" class="fx" cx="' + L.src[0] + '" cy="' + L.src[1] + '" r="6" fill="' + K.gr + '"/>';
+    // switches and stems, one group per piece so phones can move them with the piece
+    var sws = PIECES.map(function (p, i) {
+      return '<line x1="' + p.x + '" y1="284" x2="' + p.x + '" y2="300" stroke="' + K.gr + '" stroke-width="1.5" stroke-dasharray="3 3"/>' +
+        '<line id="stem' + i + '" class="fx" x1="' + p.x + '" y1="332" x2="' + p.x + '" y2="' + WY + '" stroke="' + K.gr + '" stroke-width="2"/>' +
+        '<g class="sw" id="sw' + i + '" role="switch" tabindex="0" aria-checked="false" aria-label="' + p.name + ' switch">' +
         '<rect class="sw-body fx" x="' + (p.x - 32) + '" y="300" width="64" height="32" rx="16" fill="' + K.bg + '" stroke="' + K.gr + '" stroke-width="2"/>' +
         '<circle class="knob" cx="' + (p.x - 16) + '" cy="316" r="10" fill="' + K.gr + '"/>' +
-        M('OFF', 'class="sw-txt fx" x="' + (p.x + 44) + '" y="320" font-size="12" letter-spacing="1" fill="' + K.dm + '"') + '</g>';
+        M('OFF', 'class="sw-txt fx" x="' + (p.x + 44) + '" y="' + (320 + (fs - 1) * 5) + '" font-size="' + 12 * fs + '" letter-spacing="1" fill="' + K.dm + '"') + '</g>';
     });
     // bulb (largest)
-    s += '<g class="obj avail" id="oB" tabindex="0" role="button" aria-label="Ideation: light up">' +
+    s += '<g transform="' + L.pc[0] + '">' + sws[0] + '<g class="obj avail" id="oB" tabindex="0" role="button" aria-label="Ideation: light up">' +
       '<circle class="glow fx" cx="150" cy="150" r="118" fill="' + K.am + '" opacity="0" fill-opacity=".08"/>' +
       '<circle class="glow fx" cx="150" cy="150" r="98" fill="' + K.am + '" opacity="0" fill-opacity=".14"/>' +
       '<circle class="ring body fx" cx="150" cy="150" r="80" fill="transparent" stroke="' + K.ch + '" stroke-width="3"/>' +
       '<path class="fil fx" d="M120 168 l12 -30 l18 30 l18 -30 l12 30" fill="none" stroke="' + K.ch + '" stroke-width="3" stroke-linejoin="round"/>' +
       '<line class="fil fx" x1="132" y1="168" x2="132" y2="230" stroke="' + K.ch + '" stroke-width="2"/><line class="fil fx" x1="168" y1="168" x2="168" y2="230" stroke="' + K.ch + '" stroke-width="2"/>' +
       '<rect class="base fx" x="122" y="230" width="56" height="44" rx="7" fill="' + K.bg + '" stroke="' + K.ch + '" stroke-width="3"/>' +
-      '<line class="base-l fx" x1="122" y1="245" x2="178" y2="245" stroke="' + K.ch + '" stroke-width="2"/><line class="base-l fx" x1="122" y1="259" x2="178" y2="259" stroke="' + K.ch + '" stroke-width="2"/></g>';
+      '<line class="base-l fx" x1="122" y1="245" x2="178" y2="245" stroke="' + K.ch + '" stroke-width="2"/><line class="base-l fx" x1="122" y1="259" x2="178" y2="259" stroke="' + K.ch + '" stroke-width="2"/></g></g>';
     // camera (medium)
-    s += '<g class="obj" id="oC" tabindex="-1" role="button" aria-label="Execution: light up">' +
+    s += '<g transform="' + L.pc[1] + '">' + sws[1] + '<g class="obj" id="oC" tabindex="-1" role="button" aria-label="Execution: light up">' +
       '<rect class="ln fx" x="408" y="168" width="40" height="22" rx="4" fill="transparent" stroke="' + K.gr + '" stroke-width="3"/>' +
       '<rect class="ln ring fx" x="390" y="190" width="150" height="92" rx="10" fill="' + K.bg + '" stroke="' + K.gr + '" stroke-width="3"/>' +
       '<circle class="ln fx" cx="465" cy="236" r="30" fill="transparent" stroke="' + K.gr + '" stroke-width="3"/>' +
       '<circle class="ln iris fx" cx="465" cy="236" r="10" fill="transparent" stroke="' + K.gr + '" stroke-width="2"/>' +
       '<circle class="rec fx" cx="518" cy="208" r="7" fill="transparent" stroke="' + K.gr + '" stroke-width="2"/>' +
-      M('REC', 'class="rec-t fx" x="540" y="182" text-anchor="end" font-size="13" font-weight="500" letter-spacing="1" fill="' + K.red + '" opacity="0"') + '</g>';
+      M('REC', 'class="rec-t fx" x="540" y="182" text-anchor="end" font-size="' + 13 * fs + '" font-weight="500" letter-spacing="1" fill="' + K.red + '" opacity="0"') + '</g></g>';
     // control panel (small)
-    s += '<g class="obj" id="oP" tabindex="-1" role="button" aria-label="Fine-tuning: light up">' +
+    s += '<g transform="' + L.pc[2] + '">' + sws[2] + '<g class="obj" id="oP" tabindex="-1" role="button" aria-label="Fine-tuning: light up">' +
       '<rect class="ln ring fx" x="640" y="216" width="110" height="66" rx="8" fill="' + K.bg + '" stroke="' + K.gr + '" stroke-width="3"/>' +
       '<rect class="ln fx" x="652" y="227" width="86" height="20" rx="3" fill="transparent" stroke="' + K.gr + '" stroke-width="1.5"/>' +
       '<g class="screen fx" opacity="0"><rect x="652" y="227" width="29" height="20" fill="#ba7517"/><rect x="681" y="227" width="28" height="20" fill="#ef9f27"/><rect x="709" y="227" width="29" height="20" fill="' + K.aml + '"/></g>';
@@ -2617,32 +2835,32 @@ footer { padding-bottom: 40px; }
       s += '<line class="trk fx" x1="' + x + '" y1="255" x2="' + x + '" y2="274" stroke="' + K.gr + '" stroke-width="2"/>' +
         '<rect class="fad fx" data-up="' + [256, 263, 259][i] + '" x="' + (x - 7) + '" y="267" width="14" height="7" rx="2" fill="' + K.gr + '"/>';
     });
-    s += '</g>';
+    s += '</g></g>';
     // feature work (locked until switch 3)
-    s += M('FEATURE WORK', 'class="feat-label fx" x="890" y="56" text-anchor="middle" font-size="14" font-weight="500" letter-spacing="2" fill="' + K.dm + '"');
+    s += '<g transform="' + L.ft + '">';
+    s += M('FEATURE WORK', 'class="feat-label fx" x="890" y="56" text-anchor="middle" font-size="' + 14 * fs + '" font-weight="500" letter-spacing="2" fill="' + K.dm + '"');
     s += '<a id="featLink" aria-disabled="true" tabindex="-1">' +
       '<rect class="feat-hatch fx" x="782" y="68" width="214" height="214" rx="16" fill="url(#lockHatch)"/>' +
       '<rect class="feat-fill fx" x="782" y="68" width="214" height="214" rx="16" fill="' + K.am + '" fill-opacity=".14" opacity="0"/>' +
       '<rect class="feat-box" x="782" y="68" width="214" height="214" rx="16" fill="none" stroke="' + K.gr + '" stroke-width="2"/>' +
       '<g class="lock fx"><rect x="872" y="168" width="36" height="30" rx="4" fill="' + K.bg + '" stroke="' + K.dm + '" stroke-width="2.5"/><path d="M878 168 v-10 a12 12 0 0 1 24 0 v10" fill="none" stroke="' + K.dm + '" stroke-width="2.5"/><circle cx="890" cy="183" r="3.5" fill="' + K.dm + '"/></g>' +
       '<g class="play fx" opacity="0"><circle cx="890" cy="168" r="38" fill="' + K.am + '"/><path d="M879 150 L909 168 L879 186 Z" fill="' + K.bg + '"/></g>' +
-      M('LOCKED', 'class="feat-txt fx" x="890" y="256" text-anchor="middle" font-size="12" letter-spacing="1.5" fill="' + K.dm + '"') + '</a>';
-    // component lists, each in its own column below the wire
-    PIECES.forEach(function (p) {
-      var stageSlug = { b: 'ideation', c: 'execution', p: 'finetuning' }[p.id];
-      s += '<g class="comps hide" id="comps-' + p.id + '" aria-hidden="true"><a class="stage-link" href="#w-' + stageSlug + '">' + M(p.name.toUpperCase() + ' →', 'x="' + p.x + '" y="400" text-anchor="middle" font-size="12" font-weight="500" letter-spacing="1.5" fill="' + K.am + '"') + '</a>';
+      M('LOCKED', 'class="feat-txt fx" x="890" y="256" text-anchor="middle" font-size="' + 12 * fs + '" letter-spacing="1.5" fill="' + K.dm + '"') + '</a>';
+    s += '<g class="comps hide" id="comps-f" aria-hidden="true">' + M('NOW PLAYING', 'x="890" y="400" text-anchor="middle" font-size="' + 12 * fs + '" font-weight="500" letter-spacing="1.5" fill="' + K.am + '"') +
+      M('KERA LAILA ↗', 'x="890" y="' + (428 + (fs - 1) * 20) + '" text-anchor="middle" font-size="' + 13 * fs + '" letter-spacing="1" fill="' + K.aml + '"') + '</g></g>';
+    // component lists: below the wire on desktop, beside each piece on phones
+    PIECES.forEach(function (p, pi) {
+      var stageSlug = { b: 'ideation', c: 'execution', p: 'finetuning' }[p.id], cw = L.cw || p.w;
+      s += '<g transform="' + L.cm[pi] + '"><g class="comps hide" id="comps-' + p.id + '" aria-hidden="true"><a class="stage-link" href="#w-' + stageSlug + '">' + M(p.name.toUpperCase() + ' →', 'x="' + p.x + '" y="400" text-anchor="middle" font-size="' + 12 * fs + '" font-weight="500" letter-spacing="1.5" fill="' + K.am + '"') + '</a>';
       p.comps.forEach(function (c, i) {
-        var y = 412 + i * 30, slug = c.toLowerCase().replace(/\s+/g, '-');
-        s += '<a class="chip" href="#w-' + slug + '" aria-label="' + c + '"><rect x="' + (p.x - p.w / 2) + '" y="' + y + '" width="' + p.w + '" height="24" rx="5" fill="#232426" stroke="' + K.am + '" stroke-width="1.2"/>' +
-          M(c.toUpperCase(), 'x="' + p.x + '" y="' + (y + 16.5) + '" text-anchor="middle" font-size="12.5" letter-spacing="1" fill="' + K.aml + '"') + '</a>';
+        var y = 412 + i * L.cg, slug = c.toLowerCase().replace(/\s+/g, '-');
+        s += '<a class="chip" href="#w-' + slug + '" aria-label="' + c + '"><rect x="' + (p.x - cw / 2) + '" y="' + y + '" width="' + cw + '" height="' + L.ch + '" rx="5" fill="#232426" stroke="' + K.am + '" stroke-width="1.2"/>' +
+          M(c.toUpperCase(), 'x="' + p.x + '" y="' + (y + L.ch / 2 + 4.5 * fs) + '" text-anchor="middle" font-size="' + 12.5 * fs + '" letter-spacing="' + L.ls + '" fill="' + K.aml + '"') + '</a>';
       });
-      s += '</g>';
+      s += '</g></g>';
     });
-    s += '<g class="comps hide" id="comps-f" aria-hidden="true">' + M('NOW PLAYING', 'x="890" y="400" text-anchor="middle" font-size="12" font-weight="500" letter-spacing="1.5" fill="' + K.am + '"') +
-      M('KERA LAILA ↗', 'x="890" y="428" text-anchor="middle" font-size="13" letter-spacing="1" fill="' + K.aml + '"') + '</g>';
     circuit.innerHTML = s;
   }
-  buildCircuit();
 
   var sw = [false, false, false], lit = { b: false, c: false, p: false };
   var ORDER = ['b', 'c', 'p'];
@@ -2711,17 +2929,22 @@ footer { padding-bottom: 40px; }
     else { for (var k = i; k < 3; k++) { lit[ORDER[k]] = false; if (k > i) sw[k] = false; } }
     render();
   }
-  ORDER.forEach(function (id) {
-    var g = document.getElementById('o' + id.toUpperCase());
-    ['mouseenter', 'focus', 'click'].forEach(function (ev) { g.addEventListener(ev, function () { light(id); }); });
-    g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); light(id); } });
-  });
-  [0, 1, 2].forEach(function (i) {
-    var g = document.getElementById('sw' + i);
-    g.addEventListener('click', function () { toggle(i); });
-    g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(i); } });
-  });
-  render();
+  function bindCircuit() {
+    ORDER.forEach(function (id) {
+      var g = document.getElementById('o' + id.toUpperCase());
+      ['mouseenter', 'focus', 'click'].forEach(function (ev) { g.addEventListener(ev, function () { light(id); }); });
+      g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); light(id); } });
+    });
+    [0, 1, 2].forEach(function (i) {
+      var g = document.getElementById('sw' + i);
+      g.addEventListener('click', function () { toggle(i); });
+      g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(i); } });
+    });
+  }
+  function drawCircuit() { buildCircuit(); bindCircuit(); render(); }
+  drawCircuit();
+  // switching between phone and desktop width redraws the layout and keeps the switch state
+  if (PHONE.addEventListener) PHONE.addEventListener('change', drawCircuit); else PHONE.addListener(drawCircuit);
 
   // ---------- Work pages: categories and subcategories ----------
   var BHW = 'https://www.behance.net/gallery/';
@@ -6022,6 +6245,68 @@ footer { padding-bottom: 40px; }
   }
   function klDiagram(dg) {
     if (!dg) return '';
+    if (dg.t === 'silx') {
+      // refined 2D silhouettes: every variant cut at the same scale from the document, rows share a head line and a ground line
+      var px = function (n) { return Math.round(n * 0.6); };
+      // finals: one full-figure front view per character, taken from a chosen variant, all at the same scale on one ground line
+      var fin = (dg.finals || []).map(function (f) {
+        var v = null; dg.chars.forEach(function (c) { c.parts.forEach(function (p) { p.views.forEach(function (w) { if (w.sp.indexOf(f.row + '.png') > -1) v = w; }); }); });
+        if (!v) return ''; var im = v.imgs[f.i - 1], q = f.ht ? f.ht / im.h : 0.9;
+        return '<figure class="' + f.k + '"><span class="im" role="img" aria-label="' + e(f.n + ', final silhouette') + '" style="width:' + Math.round(im.w * q) + 'px;height:' + Math.round(im.h * q) + 'px;background-image:url(' + v.sp + ');background-size:' + Math.round(v.sw * q) + 'px ' + Math.round(im.h * q) + 'px;background-position:-' + Math.round(im.x * q) + 'px 0"></span><figcaption><b>' + e(f.n) + '</b><small>' + e(f.d) + '</small></figcaption></figure>';
+      }).join('');
+      return '<div class="kl-dg kl-silx">' + (fin ? '<div class="kl-silf"><span class="mono">Final silhouettes · front view, sized as in the comparative scaling</span><div>' + fin + '</div></div>' : '') + '<div class="kl-silk mono"><span><i class="blk"></i>Black · the part being explored</span><span><i class="gry"></i>Grey · already decided</span><span><i class="sel"></i>Amber frame · closest to the final model</span></div>' + dg.chars.map(function (c, ci) {
+        return '<details class="kl-silc ' + c.k + '"' + (ci === 0 ? ' open' : '') + '><summary><b>' + e(c.n) + '</b><span class="mono">' + c.parts.length + ' parts · ' + c.parts.reduce(function (a, p) { return a + p.views.reduce(function (b, v) { return b + v.imgs.length; }, 0); }, 0) + ' variants</span></summary>' +
+          c.parts.map(function (p) {
+            return '<div class="kl-silp"><span class="mono">' + e(p.n) + '</span>' + p.views.map(function (v) {
+              return '<div class="kl-silr"><i class="mono">' + e(v.v) + '</i><div class="kl-silv">' + v.imgs.map(function (im, k) {
+                var on = k + 1 === v.sel;
+                return '<figure class="' + (on ? 'on' : '') + '"><span class="im" role="img" aria-label="' + e(c.n + ' · ' + p.n + ' · ' + v.v + ' · variant ' + (k + 1) + (on ? ', closest to the final model' : '')) + '" style="width:' + px(im.w) + 'px;height:' + px(im.h) + 'px;background-image:url(' + v.sp + ');background-size:' + px(v.sw) + 'px ' + px(im.h) + 'px;background-position:-' + px(im.x) + 'px 0"></span>' + (on ? '<figcaption class="mono">Chosen</figcaption>' : '') + '</figure>';
+              }).join('') + '</div></div>';
+            }).join('') + '</div>';
+          }).join('') + '</details>';
+      }).join('') + '</div>';
+    }
+    if (dg.t === 'delin') {
+      // traits -> contradictions between pairs -> each character reduced to two words (which map to shapes)
+      var SHP = { Friendly: '<circle cx="9" cy="9" r="6.5"/>', Stable: '<rect x="3" y="2.5" width="12" height="13" rx="1"/>', Dangerous: '<path d="M9 2.5 L15.5 15.5 H2.5 Z"/>', Unstable: '<path d="M2.5 2.5 H15.5 L9 15.5 Z"/>' };
+      var col = { Kera: 'kera', Laila: 'laila', Boss: 'boss' };
+      var step = function (n, t, body) { return '<div class="kl-dls"><span class="mono">0' + n + ' · ' + e(t) + '</span>' + body + '</div>'; };
+      var a = '<div class="kl-dlt">' + dg.traits.map(function (c) { return '<div class="' + col[c[0]] + '"><b>' + e(c[0]) + '</b>' + c[1].map(function (x) { return '<i>' + e(x) + '</i>'; }).join('') + '</div>'; }).join('') + '</div>';
+      var b = '<div class="kl-dlc">' + dg.pairs.map(function (p) {
+        return '<div><span class="mono"><em class="' + col[p[0]] + '">' + e(p[0]) + '</em> vs <em class="' + col[p[1]] + '">' + e(p[1]) + '</em></span>' + p[2].map(function (x) { return '<p><i class="' + col[p[0]] + '">' + e(x[0]) + '</i><s></s><i class="' + col[p[1]] + '">' + e(x[1]) + '</i></p>'; }).join('') + '</div>';
+      }).join('') + '</div>';
+      var c = '<div class="kl-dlr">' + dg.reduced.map(function (r) { return '<div class="' + col[r[0]] + '"><b>' + e(r[0]) + '</b>' + r[1].map(function (w) { return '<span><svg viewBox="0 0 18 18" aria-hidden="true">' + (SHP[w] || '') + '</svg>' + e(w) + '</span>'; }).join('') + '</div>'; }).join('') + '<small>These words become shapes in Silhouette design.</small></div>';
+      return '<div class="kl-dg kl-dl">' + step(1, 'Basic traits', a) + '<span class="kl-dla" aria-hidden="true">→</span>' + step(2, 'Contradictions between them', b) + '<span class="kl-dla" aria-hidden="true">→</span>' + step(3, 'Reduced to two words', c) + '</div>';
+    }
+    if (dg.t === 'etype') {
+      var lv = ['Unhealthy', 'Average', 'Healthy'];
+      return '<div class="kl-dg kl-et"><div class="kl-eti">' + dg.basics.map(function (b, i) { return '<div><span class="mono">0' + (i + 1) + '</span><b>' + e(b[0]) + '</b><small>' + e(b[1]) + '</small></div>'; }).join('') + '</div>' +
+        '<div class="kl-etc">' + dg.items.map(function (c) {
+          return '<article class="' + c.k + '"><header><b>' + e(c.n) + '</b><span class="mono">Type ' + c.no + ' · ' + e(c.type) + '</span></header>' +
+            '<p class="want"><i class="mono">Wants most</i>' + e(c.want) + '</p><p><i class="mono">Struggles with</i>' + e(c.fear) + '</p>' +
+            '<div class="kl-etj"><div class="dn"><i class="mono">Under stress ↘</i><b>' + e(c.stress[0]) + '</b><small>' + e(c.stress[1]) + '</small></div><div class="core"><b>' + c.no + '</b></div><div class="up"><i class="mono">At best ↗</i><b>' + e(c.grow[0]) + '</b><small>' + e(c.grow[1]) + '</small></div></div>' +
+            '<p><i class="mono">Coloured by</i>' + e(c.wing) + '</p>' +
+            '<div class="kl-etl"><i class="mono">Where they start</i><div>' + lv.map(function (l, i) { return '<span class="' + (i === c.lvl ? 'on' : '') + '">' + l + '</span>'; }).join('') + '</div></div></article>';
+        }).join('') + '</div></div>';
+    }
+    if (dg.t === 'dossier') return '<div class="kl-dg kl-dos">' + dg.items.map(function (c) {
+      var row = function (k, v, cls) { return v ? '<div class="r' + (cls ? ' ' + cls : '') + '"><span class="mono">' + e(k) + '</span><p>' + e(v) + '</p></div>' : ''; };
+      return '<article class="kl-dosc ' + c.k + '"><header><b>' + e(c.n) + '</b><span class="mono">' + e(c.role) + '</span><small>' + e(c.meta) + '</small></header>' +
+        row('Occupation', c.job) + row('Objective', c.goal, 'goal') + row('Outlook', c.view) + row('Belief', c.belief) +
+        '<div class="r two"><div><span class="mono">Friends</span><p>' + e(c.friends) + '</p></div><div><span class="mono">Enemies</span><p>' + e(c.enemies) + '</p></div></div>' +
+        row('Backstory', c.back, 'back') + '</article>';
+    }).join('') + '</div>';
+    if (dg.t === 'worldview') {
+      // x: outlook (pessimistic to optimistic); y: where right and wrong come from (dictated by a ruler, to objective)
+      var W2 = 600, H2 = 300, px = function (x) { return 120 + x * 380; }, py = function (y) { return 250 - y * 210; };
+      var sv2 = '<rect x="120" y="40" width="380" height="210" class="bx"/><path d="M310 40 V250 M120 145 H500" class="gd"/>' +
+        '<text x="120" y="272" class="ax">Pessimistic</text><text x="500" y="272" text-anchor="end" class="ax">Optimistic</text><text x="310" y="290" text-anchor="middle" class="ax t">Outlook on life →</text>' +
+        '<text x="110" y="240" text-anchor="end" class="ax">Dictated</text><text x="110" y="252" text-anchor="end" class="ax">by a ruler</text><text x="110" y="48" text-anchor="end" class="ax">Objective,</text><text x="110" y="60" text-anchor="end" class="ax">from God</text>' +
+        '<text x="14" y="145" transform="rotate(-90 14 145)" text-anchor="middle" class="ax t">Where morality comes from →</text>';
+      sv2 += '<path d="M' + px(.66) + ' ' + py(.44) + ' C' + px(.72) + ' ' + py(.62) + ' ' + px(.7) + ' ' + py(.72) + ' ' + px(.74) + ' ' + py(.8) + '" class="arc" marker-end="url(#klWvArr)"/><defs><marker id="klWvArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" class="ah"/></marker></defs>';
+      dg.pts.forEach(function (p) { sv2 += '<circle cx="' + px(p.x) + '" cy="' + py(p.y) + '" r="9" class="pt ' + p.k + '"/><text x="' + (px(p.x) + (p.dx || 14)) + '" y="' + (py(p.y) + 4) + '"' + (p.dx < 0 ? ' text-anchor="end"' : '') + ' class="nm">' + e(p.n) + '</text><text x="' + (px(p.x) + (p.dx || 14)) + '" y="' + (py(p.y) + 18) + '"' + (p.dx < 0 ? ' text-anchor="end"' : '') + ' class="sb">' + e(p.s) + '</text>'; });
+      return '<div class="kl-dg kl-wv"><span class="mono">Worldview map</span><svg viewBox="0 0 ' + W2 + ' ' + H2 + '" role="img" aria-label="' + e(dg.alt) + '">' + sv2 + '</svg><p>' + e(dg.note) + '</p></div>';
+    }
     if (dg.t === 'shapes') {
       // shape language: each basic shape carries one trait; each character = a primary shape + a secondary one
       var SH = {
@@ -6293,7 +6578,7 @@ footer { padding-bottom: 40px; }
       s2 += ed('k', 'l', 'worry · juvenile', 'confidence · mature') + ed('k', 'b', 'obedience · defence', 'dominance · aggression') + ed('l', 'b', 'flexible · compassionate', 'stubborn · uncompassionate');
       var nd = function (id, name, t1, ty) { var p = V[id]; return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="28" class="nd on"/><text x="' + p[0] + '" y="' + (p[1] + 5) + '" text-anchor="middle" class="who">' + name + '</text><text x="' + p[0] + '" y="' + (p[1] + ty) + '" text-anchor="middle" class="tr">' + t1 + '</text>'; };
       s2 += nd('k', 'Kera', 'unstable · friendly', -38) + nd('l', 'Laila', 'stable · friendly', 46) + nd('b', 'Boss', 'stable · dangerous', 46);
-      return '<div class="kl-dg kl-svg"><svg viewBox="0 0 400 310" role="img" aria-label="Character delineation triangle: Kera unstable and friendly, Laila stable and friendly, Boss stable and dangerous, with the traits that contrast each pair">' + s2 + '</svg></div>';
+      return '<div class="kl-dg kl-svg"><svg viewBox="0 -26 400 340" role="img" aria-label="Character delineation triangle: Kera unstable and friendly, Laila stable and friendly, Boss stable and dangerous, with the traits that contrast each pair">' + s2 + '</svg></div>';
     }
     return '';
   }
@@ -6379,7 +6664,7 @@ footer { padding-bottom: 40px; }
       if (s.ov) left = (s.ls ? '<p class="kl-sum">' + e(s.ls) + '</p>' : '') + [].concat(s.ldg || []).map(klDiagram).join('');
       return ov + '<article class="kl-sec' + (!fh ? ' text-only' : '') + ((s.ov || s.all || s.groups) && fh ? ' figs-only' : '') + (s.all ? ' all-figs' : '') + '" id="' + cid + '-' + si + '" data-ch="' + cid + '" data-si="' + si + '">' +
         '<header>' + (title ? '<h3>' + e(title) + '</h3>' : '') + '</header>' +
-        (left ? '<div class="kl-left">' + left + '</div>' : '') + fh + '</article>';
+        (left ? '<div class="kl-left">' + left + '</div>' : '') + fh + (s.dg2 ? '<div class="kl-after">' + [].concat(s.dg2).map(klDiagram).join('') + '</div>' : '') + '</article>';
     }).reduce(function (acc, html, si) {
       if (si === 0 && KL_INTRO[cid]) acc += klIntro(cid, secs);
       var g = (KL_GROUPS[cid] || []).filter(function (x) { return si >= x.from && si <= x.to; })[0];
